@@ -1,0 +1,142 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+div.container{
+    width: 1480px;
+    margin: 0 auto;
+
+}
+.header {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    justify-content: space-between;
+	align-items: center;
+}
+body{
+    margin: 0px;
+}
+ul.one, ul.two {
+    list-style: none; 
+    margin: 0 auto;
+  }
+.menu a {
+    text-decoration: none;
+    transition: .5s linear;
+    color: black;
+
+  }
+.right_side a {
+    text-decoration: none;
+    transition: .5s linear;
+    color: black;
+}
+
+ul.one a:hover{
+    color:blueviolet
+}
+.one li {
+    display: inline;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+.two li {
+    display: inline;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+ul.two a:hover{
+    color:blueviolet
+}
+.right_side{
+    margin: 10px;
+    display: flex;
+
+    
+}
+form.search{
+    flex: 1 1 150px;
+    
+}
+.footer{
+    width: 100%;
+	display: flex;
+	justify-content: space-between;
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+.footer a {
+    text-decoration: none;
+    transition: .5s linear;
+    color: white;
+}
+.phone:hover{
+    color:white;
+    background-color: black;
+}
+.mail:hover{
+    color:white;
+    background-color: black;
+}
+.category{
+    width: 740px;
+    height: 625px;
+    display:flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+div.category_1, div.category_2, div.category_3, div.category_4, div.category_5, div.category_6 {
+    margin: 20px;
+    width: 200px;
+    height: 270px;
+    background-color: BLACK;
+    color: white;
+    border-radius: 10px;
+}
+.category_img{
+    margin: 10px 0px 0px 0px ;
+    width: 190px;
+    height: 190px;
+}
+a {
+    text-decoration: none;
+    transition: .5s linear;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+a:hover{
+    color:black;
+}
+.submit{
+    background-color: blueviolet;
+    color:white;
+    border: 0px;
+    width: 100px;
+    height: 27px;
+    font-family: 'Roboto', sans-serif;
+}
+.submit:hover{
+    color:white;
+    background-color: black;
+
+}
+.field_search{
+    width: 200px;
+    height: 20px;
+}
+div.category_name{
+    background-color: blueviolet;
+    width: 190px;
+    height: 50px;
+    margin: 8px auto;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}

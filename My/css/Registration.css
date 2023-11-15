@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+body {
+font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+
+}
+
+button {
+  padding: 10px;
+  background-color: blueviolet;
+  color: #fff;
+  border: none;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.external-login {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.external-login a {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  border: 1px solid;
+  text-decoration: none;
+  color: black;
+}
+
+.external-login a:hover {
+  background-color: black;
+  color: white;
+}
+.VK{
+    width: 100px;
+    background-color: white;
+    color: black;
+}
+.Google{
+    width: 100px;
+    background-color: white;
+    color: black;
+}
+.VK:hover{
+    background-color: black;
+    color: white;
+}
+.Google:hover{
+    background-color: black;
+    color: white;
+}
